@@ -13,7 +13,8 @@
 
 # npm i -D lint-staged ele permite rodar script no staged are, = todos que arquivos modificados para dar commits
 
-# npm i -D jest @type/jest ts-jest  = parte de provas || npm install -g jest-cli
+# npm i -D jest @type/jest ts-jest  = parte de provas || npm install -g jest-cli 
+Verify politicy of jest  =>  Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
 
 OBS: git log exit q
 

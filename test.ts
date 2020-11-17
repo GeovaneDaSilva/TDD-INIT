@@ -1,4 +1,4 @@
-function teste (): number {
-  return 2
+function teste (): string {
+  return 'hola mundo'
 }
 teste()
