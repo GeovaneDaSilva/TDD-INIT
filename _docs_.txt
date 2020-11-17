@@ -17,4 +17,4 @@
 
 OBS: git log exit q
 
-#
+# git commit --amend --no-edit      => juntar commites em um utimo commit sem necessitar text
