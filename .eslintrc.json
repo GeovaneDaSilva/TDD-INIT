@@ -1,7 +1,8 @@
 {
     "extends": "standard-with-typescript",
     "parserOptions": {
-        "project": "./tsconfig.json"
+        "project": "./tsconfig.json",
+        "ignoreTypeReferences": true
     },
 
     "rules": {
@@ -10,6 +11,8 @@
         "@typescript-eslint/comma-spacing": "off",
         "@typescript-eslint/return-await": "off",
         "@typescript-eslint/restrict-template-expressions": "off",
-        "@typescript-eslint/no-redeclare": "off"
+        "@typescript-eslint/no-redeclare": "off",
+        "@typescript-eslint/no-extraneous-class": "off"
+        
       }
 }
