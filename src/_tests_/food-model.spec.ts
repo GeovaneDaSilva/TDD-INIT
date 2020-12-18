@@ -1,7 +1,7 @@
 import { Food } from '../models/food-model'
 
 describe('Classes', () => {
-  it('Class VehicleModel', () => {
+  it('Class Food', () => {
     const food = new Food({
       name: 'name',
       description: 'description',
@@ -9,6 +9,7 @@ describe('Classes', () => {
       inventory: 24
     })
 
+    expect(food.getFood()).toEqual(food)
     expect(food.getName()).toEqual('name')
     expect(food.getDescription()).toEqual('description')
     expect(food.getPrice()).toBe(51)
