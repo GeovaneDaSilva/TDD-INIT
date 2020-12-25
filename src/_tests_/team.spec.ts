@@ -6,10 +6,10 @@ describe('Team class', () => {
     const position = {
       name: 'goalkeeper',
       tShirt: 1,
-      skills: ['Kick hard', 'Run fast', 'Jump high.']
+      skills: ['Kick hard', 'Run fast', 'Jump high']
     }
 
-    expect(team.position(position.name, position.tShirt, position.skills)).toEqual(['goalkeeper', 1, ['Kick hard', 'Run fast', 'Jump high.']])
+    expect(team.position(position.name, position.tShirt, position.skills)).toEqual(['goalkeeper', 1, ['Kick hard', 'Run fast', 'Jump high']])
   })
 
   it('Position ', () => {
