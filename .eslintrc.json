@@ -2,7 +2,7 @@
     "extends": "standard-with-typescript",
     "parserOptions": {
         "project": "./tsconfig.json",
-        "strictFunctionTypes": true
+        "ignoreTypeReferences": true
     },
 
     "rules": {
